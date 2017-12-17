@@ -1,0 +1,14 @@
+/* Font Awesome customisation */
+
+.fa-heart-red {
+    font-size: 20px;
+    color: red;
+    float: right;
+}
+
+.fa-cog-green {
+    margin-left: 10px;
+    font-size: 30px;
+    color: var(--primary-color);
+    cursor: pointer;
+}

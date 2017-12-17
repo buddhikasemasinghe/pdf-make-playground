@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://r6dev.runway.com.au/runway/rep/pipelinelandlist -->
+<html><!-- CSS FRAGMENT --><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>PIPELINE SALES REP</title>
+	
+	
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/magicsuggest-min.css">
+
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/datatables.css">
+
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/sweetalert.css">
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/toastr.css">
+
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/animate.css">
+
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/dropzone.css">
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/bootstrap-datepicker3.css">
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/bootstrap-clockpicker.css">
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/bootstrap-colorpicker.min.css">
+
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/style.css">
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/fa-custom.css">
+
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/salesrep.css">
+	<link rel="stylesheet" type="text/css" href="./PIPELINE SALES REP_files/lightbox.min.css">
+<script type="text/javascript" charset="UTF-8" src="./PIPELINE SALES REP_files/common.js"></script><script type="text/javascript" charset="UTF-8" src="./PIPELINE SALES REP_files/util.js"></script><script type="text/javascript" charset="UTF-8" src="./PIPELINE SALES REP_files/stats.js"></script></head>
+
+    <body class="top-navigation  pace-done" style="--primary-color:#012ea1; --primary-light-color:#b5c7db; --secondary-color:#333333;"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+
+    	<!-- POPUP BACKGROUND BLOCKER -->
+    	
+	<div id="popup-bg" class="popup-bg" style="display: none;"></div>
+    <div id="popup-filter-bg" class="popup-bg" style="display: none;"></div>
+    <div id="popup-search-filter-bg" class="popup-bg" style="display: none;"></div>
+    <div id="popup-mode-selector-bg" class="popup-bg" style="display: none;"></div>
+
+
+    	<!-- POPUP BACKGROUND BLOCKER -->
+    	
+	<div id="popup-bg" class="popup-bg" style="display: none;"></div>
+    <div id="popup-filter-bg" class="popup-bg" style="display: none;"></div>
+    <div id="popup-search-filter-bg" class="popup-bg" style="display: none;"></div>
+    <div id="popup-mode-selector-bg" class="popup-bg" style="display: none;"></div>
+
+
+		<!-- Dummy button to open modal -->
+		<button type="button" id="display-publish-modal" data-toggle="modal" data-target="#land-publish-action" class="c-display-none"></button>
+
+		<!-- ***** MODAL BEGIN ***** -->
+
+		
+
+		<!-- ***** MODAL END ***** -->
+
+        <div id="wrapper">
+            <div id="page-wrapper" class="gray-bg">
+
+				<!-- HEADER FRAGMENT -->
+            	<div class="row pipelineSteel">
+	<nav class="navbar navbar-static-top" role="navigation" style="z-index: auto;">
+		<div class="navbar-header c-header-bar-logo">
+			<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed cr-background-color-highlight" type="button">
+				<i class="fa fa-reorder"></i>
+			</button>
+			<ul class="c-icons">
+		        <li class="c-position-relative">
+		            <a href="https://r6dev.runway.com.au/runway/rep/pipelinenotification">
+		                <i class="fa fa-bell fa-lg"></i>
+		                <div id="notificationCountStaticId" class="" style="top: -10px; left: 10px;"></div>
+		            </a>
+		        </li>
+		    </ul>
+			<div class="row">
+				<div class="c-pipeline-logo col-sm-6 col-sm-push-6 text-center">
+					<a class="navbar-brand" href="https://r6dev.runway.com.au/runway/rep/home">
+						<img class="c-pipeline-image-logo" style="float: none; margin-right: 10px; width: 46%; margin-top: -11px;" alt="Company Logo" src="./PIPELINE SALES REP_files/CGByzanJ90gif">
+						
+					</a>
+				</div>
+
+				<div class="c-header-bar-profile dropdown profile-element col-sm-6 col-sm-pull-6 hidden-xs">
+					<div class="c-img-profile">
+						
+						<div class="c-img-profile-source" source="https://s3-ap-southeast-2.amazonaws.com/pipeline-media-bucket/SwitchedOn/contact/LLWGhMtzJIjpg" style="background-image:url(https://s3-ap-southeast-2.amazonaws.com/pipeline-media-bucket/SwitchedOn/contact/LLWGhMtzJIjpg);"></div>
+					</div>
+<!-- 					<img th:if="${userAvatar == null}" class="c-img-profile img-circle" th:src="@{https://s3-ap-southeast-2.amazonaws.com/pipeline-media-bucket/SwitchedOn/defaultuser.png}" alt="User avatar"/> -->
+<!-- 					<img th:if="${userAvatar != null}" class="c-img-profile img-circle" th:src="${userAvatar}" alt="User avatar"/> -->
+					<div style="position: relative; top: 10px;">
+						<a data-toggle="dropdown" class="dropdown-toggle" href="https://r6dev.runway.com.au/runway/rep/pipelinelandlist#">
+							<span>
+								<strong id="global-login-username" class="c-white font-bold">Marius Tobiassen</strong><b class="c-white c-profile-btn fa fa-sort-desc"></b>
+							</span>
+						</a>
+						<ul class="dropdown-menu animated fadeInRight m-t-xs detailspopup">
+							<li><a id="c-global-change-detail" href="https://r6dev.runway.com.au/runway/rep/pipelinelandlist#">My details</a></li>
+							<li><a id="c-global-change-user-preference" href="https://r6dev.runway.com.au/runway/rep/pipelinelandlist#">Preferences</a></li>
+							<li class="divider"></li>
+							<li><a href="https://r6dev.runway.com.au/runway/rep/pipelinelandlist#" class="logout">Logout</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="navbar-collapse collapse" id="navbar" style="-webkit-overflow-scrolling: auto;">
+			<ul class="nav navbar-top-links navbar-right c-position-relative">
+                <li>
+                    <a id="pipeline-mode-switch" href="https://r6dev.runway.com.au/runway/rep/pipelinelandlist#" trigger="pipeline-mode-display">
+                        <i class="fa fa-exchange fa-lg"></i>
+                    </a>
+                    <div id="pipeline-mode-display" style="display: none;">
+                        <label class="cr-color-highlight m-r">View</label>
+                        <select name="pipeline-mode" id="pipeline-mode" class="c-pipeline-mode c-color-white" style="position: relative; z-index: 9999 !important;">
+							<option value="" destination="#" style="display:none;" disabled="">...</option>
+							<option value="administrator" destination="/runway/admin/home">Administrator</option>
+							<option value="sales-rep" selected="" destination="/runway/rep/selectedhome">Portal</option>
+							<option value="repository" destination="/runway/repository/show/documentsview">Assets</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="c-position-relative hidden-xs">
+		            <a href="https://r6dev.runway.com.au/runway/rep/pipelinenotification">
+		                <i class="fa fa-bell fa-lg"></i>
+		                <div id="notificationCountCollapseId" class=""></div>
+		            </a>
+		        </li>
+		        <li style="display:none;">
+                    <a href="https://r6dev.runway.com.au/runway/rep/pipelinelandlist#"><i class="fa fa-cogs fa-lg"></i></a>
+                </li>
+                <li>
+                    <a href="https://s3-ap-southeast-2.amazonaws.com/pipeline-help-staging/pipeline_help.html" target="_blank"><i class="fa fa-question-circle fa-lg"></i></a>
+                    
+                </li>
+                <li>
+                    <a href="https://r6dev.runway.com.au/runway/rep/pipelinelandlist#" class="logout"><i class="fa fa-sign-out fa-lg"></i></a>
+                </li>
+            </ul>
+
+			<div class="navLinksBar cr-background-color-highlight" style="overflow-x:visible;overflow-y:visible;">
+	<div class="navLinks">
+		<ul class="nav navbar-nav cr-nav-color-hover">
+			<li class="c-active">
+				<a href="https://r6dev.runway.com.au/runway/rep/pipelinelandlist#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Land <span class="caret"></span></a>
+              	<ul class="dropdown-menu">
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/pipelinedeveloperlist">Developers</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/pipelineestate">Projects</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/pipelinelandlist">Land List</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/landportallist">Land Portal List</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/landportalpublishcampaign">Portal Publish Campaign</a></li>
+		          <!--   <li th:if="${isDeveloper} == false"><a th:href="@{/rep/pipelinelandlist}">Import Land</a></li> -->
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/pipelinelandupdate">Land Updates</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/land/productcsvupload">Land Imports</a></li>
+              	</ul>
+			</li>
+			<li>
+				<a href="https://r6dev.runway.com.au/runway/rep/pipelinelandlist#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Apartments <span class="caret"></span></a>
+              	<ul class="dropdown-menu">
+              		<li><a href="https://r6dev.runway.com.au/runway/rep/pipelineapartmentsdeveloperslist">Developers</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/pipelineapartmentsbuildingslist">Buildings</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/pipelineapartmentslist">Apartments List</a></li>
+					<li><a href="https://r6dev.runway.com.au/runway/rep/apartmentportallist">Apartment Portal List</a></li>
+					<li><a href="https://r6dev.runway.com.au/runway/rep/apartmentportalpublishcampaign">Portal Publish Campaign</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/pipelineapartmentupdate">Apartments Updates</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/apartment/productcsvupload">Apartment Imports</a></li>
+              	</ul>
+			</li>
+			<li>
+				<a href="https://r6dev.runway.com.au/runway/rep/pipelinelandlist#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Real Estate <span class="caret"></span></a>
+              	<ul class="dropdown-menu">
+					<li><a href="https://r6dev.runway.com.au/runway/rep/pipelinerealestateprojectlist">Projects</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/pipelinerealestatelist">Real Estate List </a></li>
+					<li><a href="https://r6dev.runway.com.au/runway/rep/realestateportallist">Real Estate Portal List</a></li>
+					<li><a href="https://r6dev.runway.com.au/runway/rep/realestateportalpublishcampaign">Portal Publish Campaign</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/realestate/productcsvupload">Real Estate Imports</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/pipelinerealestateupdate">Real Estate Updates</a></li>
+		        </ul>
+			</li>
+			<li>
+				<a href="https://r6dev.runway.com.au/runway/rep/pipelinelandlist#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> House &amp; Land <span class="caret"></span></a>
+              	<ul class="dropdown-menu">
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/pipelinehouselandlist"> House &amp; Land List </a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/houselandportallist"> House &amp; Land Portal List</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/houselandportalpublishcampaign">Portal Publish Campaign</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/pipelinehouselandupdate">House &amp; Land Updates</a></li>
+		            <!-- <li th:if="${isBuilder} == true and ${isRunwayClient} == false"><a th:href="@{/rep/handl/productcsvupload}">House &amp; Land Imports</a></li> -->
+		      		
+              	</ul>
+			</li>
+		<!-- 	<li th:classappend="${salesrephomes}? 'c-active'" style="display: none;"> -->
+			<li>
+				<a href="https://r6dev.runway.com.au/runway/rep/pipelinelandlist#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Homes <span class="caret"></span></a>
+              	<ul class="dropdown-menu">
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/pipelinehomesbuilderslist">Builders</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/pipelinerange">Ranges</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/pipelinedesign">Designs</a></li>
+		            <li><a href="https://r6dev.runway.com.au/runway/rep/pipelinehomeslist">Homes List</a></li>
+              	</ul>
+			</li>
+			<li>
+				<a href="https://r6dev.runway.com.au/runway/rep/pipelinecontactlist"> Contacts </a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+		</div>
+	</nav>
+</div>
+
+            	<!-- BREADCRUMB FRAGMENT -->
+				<div class="row wrapper border-bottom white-bg page-heading" id="header-breadcrumb">
+	<div class="col-xs-12">
+		<ol class="breadcrumb" style="margin-top: 15px;">
+			<li>
+				<a class="c-custom-breadcrumb" urlmethod="GET" href="https://r6dev.runway.com.au/runway/rep/home">Home</a>
+				
+			</li>
+			<li class="active">
+				
+				<b id="pipeline-breadcrumb">Land list</b>
+			</li>
+			<span>
+                <span>
+                    <a id="set-homepage-btn" href="https://r6dev.runway.com.au/runway/rep/pipelinelandlist#"><i class="btn fa fa-heart-o fa-heart-red"></i></a>
+                </span>
+                
+			</span>
+		</ol>
+	</div>
+	<div class="col-lg-2"></div>
+</div>
+
+				<!-- CONTENT BEGIN -->
+
+                <div class="wrapper wrapper-content">
+                    <div class="container">
+                        <div class="row">
+
+                        	<!--  PLACE ALL FILTERS IN HERE !!! -->
+                        	<!--  FILTER CONTAINER BEGIN -->
+                        	<div id="c-filter-initial-container" style="display: none;">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+                        	<!--  FILTER CONTAINER END -->
+
+                            <div class="col-lg-12">
+                                <div class="ibox float-e-margins">
+
+                                	<!-- FILTER BAR BEGIN -->
+
+									<div class="ibox-title" id="lot-partnerpublishing-actions-div">
+										<h1 class="c-display-inline">Land List</h1>
+										<button id="c-newlot-btn" class="btn cr-background-color-highlight cr-border-color cr-color-highlight c-float-right" type="button">
+											New Lot
+										</button>
+										<div class="c-position-relative c-action-selection" style="margin-right:10px; top: -5px;">
+											<label class="m-r-sm m-t-sm">Actions : </label>
+											<div class="c-display-inline-block">
+												<select id="action-selector" class="form-control select-checkbox-action" disabled="true">
+													<option id="land-action-select-default" selected="" value="" style="display:none;">Select...</option>
+													
+													<option value="8316141443404980710">Download</option>
+													<option value="6402311433814327858">Partner Publishing</option>
+													
+												</select>
+											</div>
+										</div>
+										<div class="c-position-relative c-action-selection" style="margin-right:10px; top: -5px;">
+											<label class="m-r-sm m-t-sm">Mode </label>
+											<div class="c-display-inline-block">
+												<select class="land-mode-selector form-control">
+													<option class="land-list-publish-view" value="land-list-publish-view" selected="selected">Partner Publishing</option>
+													<option class="land-ext-list-publish-view" value="land-ext-list-publish-view">Portal Publishing</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="ibox-title" id="lot-portalpublishing-actions-div" style="display: none;">
+										
+										<h1 class="c-display-inline">Land Portal Publishing</h1>
+										<button disabled="true" id="action-selector-publish" class="btn cr-background-color-highlight cr-border-color cr-color-highlight c-float-right" type="button" value="5452344433814327858">
+											Publish
+										</button>
+										
+										<div class="c-position-relative c-action-selection" style="margin-right:10px; top: -3px;">
+											<label class="m-r-sm m-t-sm">Mode </label>
+											<div class="c-display-inline-block">
+												<select class="land-mode-selector form-control">
+													<option class="land-list-publish-view" value="land-list-publish-view">Partner Publishing</option>
+													<option class="land-ext-list-publish-view" value="land-ext-list-publish-view" selected="selected">Portal Publishing</option>
+												</select>
+											</div>
+										</div>
+									</div>
+
+									<!-- FILTER BAR END -->
+
+                              		<!-- SEARCH BAR BEGIN -->
+
+                                    <div class="c-ibox-content ibox-content">
+										<div class="row">
+											<div class="col-lg-12">
+												<form id="c-land-filter" method="post" action="https://r6dev.runway.com.au/runway/rep/pipelinelandlist">
+    <input id="validate-publish" type="hidden" name="validatepublish" value="false">
+    <input type="hidden" name="form-action" value="/rep/land/filter">
+    <input id="product-publish-id" type="hidden" name="product-publish-id" class="form-control" value="">
+
+    <div class="c-search-panel cr-background-color-highlight-2 c-position-relative">
+
+        <div> <!-- CENTERING DIV -->
+            <div>
+                <div id="c-filter-show-container" style="margin-right: 15px;">
+                    <span id="list-filter-icon-id" trigger="list-filter-table-prop-div" class="fa fa-cog c-float-right fa-cog-green" aria-hidden="true"></span>
+                    <div id="list-filter-table-prop-div" style="display: none;"><div><input type="checkbox" class="c-filter-visibility" id="c-column-location" position="3" column-id="location" checked=""><label for="c-column-location" style="margin-left: 10px;">Location</label></div><div><input type="checkbox" class="c-filter-visibility" id="c-column-estate" position="5" column-id="estate" checked=""><label for="c-column-estate" style="margin-left: 10px;">Project</label></div><div><input type="checkbox" class="c-filter-visibility" id="c-column-stage" position="6" column-id="stage"><label for="c-column-stage" style="margin-left: 10px;">Stage</label></div><div><input type="checkbox" class="c-filter-visibility" id="c-column-status" position="7" column-id="status"><label for="c-column-status" style="margin-left: 10px;">Status</label></div><div><input type="checkbox" class="c-filter-visibility" id="c-column-titledate" position="8" column-id="titledate"><label for="c-column-titledate" style="margin-left: 10px;">Title Date</label></div><div><input type="checkbox" class="c-filter-visibility" id="c-column-frontage" position="9" column-id="frontage" checked=""><label for="c-column-frontage" style="margin-left: 10px;">Frontage (m)</label></div><div><input type="checkbox" class="c-filter-visibility" id="c-column-area" position="11" column-id="area" checked=""><label for="c-column-area" style="margin-left: 10px;">Area (m2)</label></div><div><input type="checkbox" class="c-filter-visibility" id="c-column-price" position="12" column-id="price" checked=""><label for="c-column-price" style="margin-left: 10px;">Price ($)</label></div><div><input type="checkbox" class="c-filter-visibility" id="c-column-product" position="13" column-id="product" checked=""><label for="c-column-product" style="margin-left: 10px;">Show</label></div></div>
+                    <div></div>
+                    <button id="c-land-filter-btn" class="btn cr-background-color-highlight cr-border-color cr-color-highlight c-float-right c-btn-go" type="button">
+                        Go
+                    </button>
+                    <button class="btn cr-background-color-highlight cr-border-color cr-color-highlight c-float-right" id="c-more-filter" type="button" trigger="c-filter-popup-container" style="margin-right: 10px; visibility: visible;">
+                        <div class="cr-color c-show-more-filter">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </button>
+                    <div></div>
+                <div class="c-filter" id="location-filter-id" style="">
+        <label for="filter-location">Location</label>
+        <div class="ms-ctn form-control ms-as-string form-control" style="width:250px" id="filter-location"><span class="ms-helper " style="display: block;"></span><div class="ms-sel-ctn"><div class="ms-sel-item ms-sel-text ">All</div><input type="text" class="" placeholder="" style="width: 154.469px;"><div style="display: none;"><input type="hidden" name="filter-location[]" value=""></div></div><div class="ms-trigger"><div class="ms-trigger-ico"></div></div></div>
+    </div><div class="c-filter" id="estate-filter-id" style="">
+        <label for="filter-estate">Project</label>
+        <select id="filter-estate" name="filter-estate" class="form-control">
+            <option value="" selected="">All</option>
+            <option value="1661354723127578682818245266118667301494894682105"> May17 Reg</option>
+            <option value="6565358380455665010481140682483004321491887430376">1104 estate test</option>
+            <option value="4086330152108315034364074645066322231503576889591">1107 Estate Test</option>
+            <option value="4678541873226405112351871361688723781503576871082">1107 Estate Test</option>
+            <option value="5261117584887006811448565510632656841503576908044">1107 Estate Test</option>
+            <option value="8847068222050315658448185881814510441503576653541">1107 Estate Test</option>
+            <option value="6774800282367064812062872818088732041479872440738">18</option>
+            <option value="2404264701882510257635526218154716611492658627786">2004 test 3</option>
+            <option value="2765381053807417218252024483112743081492657903256">2004 test estate 2</option>
+            <option value="8127010336618566840360550257061453141456098746962">Allens Farm</option>
+            <option value="2375828431045134263054344006301443511456098743959">Ambra  Estate</option>
+            <option value="3532427657057724472453222718315018671495008226122">Appleton</option>
+            <option value="2247546622468575044038563170155273631501030977972">Appleton1</option>
+            <option value="5021544045577832063747171227813336171503561256300">August_Release</option>
+            <option value="4723201228344401744428541035424601171501807823526">Aug_4_Reg</option>
+            <option value="1771373336140238537072048734212132471501807823766">Aug_Reg_test</option>
+            <option value="3125511628226178241870126184550420211494998872992">Bermuda_Test</option>
+            <option value="8424187655126456248877730630888482761509407150004">Buddhika 31-10-1 Estate</option>
+            <option value="4442182261634541242382366414286263111456098746324">Calypso</option>
+            <option value="7683137756242567412761804640558250021456098747167">Centro</option>
+            <option value="1171234514481173182614233347556806041456098745405">Clementine</option>
+            <option value="2670307000868012437080674288847838841456098746524">Coopers Forest</option>
+            <option value="3052374724052265283234454688224026141456098747366">Darrah</option>
+            <option value="1173265611604673287112082723175470431505192071578">dsfgdg</option>
+            <option value="6382628201566537454042308087638266511495781053573">East Aster</option>
+            <option value="2415485013788662325132024218315577571456098748606">Emerald Hill</option>
+            <option value="2617318505383463212776348400454762451501632463870">Estate 2510</option>
+            <option value="4565450072305333476165313050818243801510881813578">Estate 6.11</option>
+            <option value="5502342222734040068115070667175756401512697508608">Estate 6.12</option>
+            <option value="1833232348742124062370326112726638031505369287261">Estate_6.8</option>
+            <option value="5727246172725374460053657571253233001509431640737">Estate_LandMatch</option>
+            <option value="6047673012337571760686361418437246111494894907526">Estate_May</option>
+            <option value="4326611361372305377773446328686274701494894907275">Estate_May_Reg</option>
+            <option value="6685760800511184477775871004260210601494894907718">Estate_May_Reg_1</option>
+            <option value="7306204514521322386251654832888046641505369286592">Estate_Sep</option>
+            <option value="1512574163383624273586062138870587361456098744607">Fairmile</option>
+            <option value="6167081376801627572124273761278281601492489121395">Ginninderry Estate</option>
+            <option value="2854536518220457075021323750886324861509675499668">Hanging Rock</option>
+            <option value="8685216553432432035122533162546644821476179641146">Inactive Test Project</option>
+            <option value="8463117257360010011372056233244566671496374802297">June_Reg05</option>
+            <option value="7364461212756604021881201806040272621508825656349">Land Match 24-10</option>
+            <option value="7251480552232017238883568560123031471508886559661">Land Match Developer -25-10</option>
+            <option value="2885554456771746848631814353313684051508886559156">LandMatch 2</option>
+            <option value="6050734405843605642785037006627440651509505066199">LandMatch 6.10</option>
+            <option value="3543447440604657842004578133045525641508728814585">LandMatch Estate</option>
+            <option value="4543700072313870575181433277205288421509670764683">LM 311</option>
+            <option value="7186045672607358740403118032018413121456098744882">Marble Rise</option>
+            <option value="3627535628532475661723345053714543361490059308249">March 2017 Estate</option>
+            <option value="1168744133217755678265744524872837641490599105710">March Regression estate</option>
+            <option value="2616188236787700643163327244115027301509579909117">Matiz Estate</option>
+            <option value="3573125867084567827053607127010074041494209977413">May reg 2 estate</option>
+            <option value="6526102662338303028346788364040558061493876837351">May regression estate 04</option>
+            <option value="1268888477885148311712230661827880381494894636734">MayRelease 2017</option>
+            <option value="4144046464810757668374271381558646311505456014297">Meridian </option>
+            <option value="5440343285365683377334008675361555431495413924257">Mirraw</option>
+            <option value="2648837506172882135124711067707387001456098748800">Modus</option>
+            <option value="6544031050378120661532110461233608131462943420175">NEW Estate</option>
+            <option value="5547358241030363738152534176608560101462944975592">NEW2 Estate</option>
+            <option value="1264360328626652754154313614630144211456098746708">Northfield</option>
+            <option value="6562730726030044267470804834003718781456098745145">Oceanside</option>
+            <option value="5046384414176463065273422513677665071509070244561">October regression 1</option>
+            <option value="8781825485246083071710080087702552851490599106320">P2Regression March-2</option>
+            <option value="5464835335167071647020545262017504351456098748985">Palm Lakes</option>
+            <option value="5423711488868730118456633356400284031456098745626">Peaks</option>
+            <option value="8731768585847483371207788413474375011476771210721">Pipeline Estate01</option>
+            <option value="3434683125430437645827462142157556121456098747561">Ponderosa</option>
+            <option value="5042080237518856762247625520533353601509325214752">Published estate</option>
+            <option value="1383610206847442635601463060865574261509075339240">Reg 6.10</option>
+            <option value="4215858683074550020083355430142018301510878295021">Reg 6.11</option>
+            <option value="3627534588565760065442813072680357211505441449868">Regression 09</option>
+            <option value="8881086376047564456126328604645366261510877122881">Regression 11 november</option>
+            <option value="5331373836205005438773301418581843301509410039120">Regression 31-10-1</option>
+            <option value="4005328355808805172504014806118753031509420678035">Regression 31-10-17-14-30</option>
+            <option value="7033845345724086846164302647320088231500335016700">Regression July</option>
+            <option value="4745655083121306681080828774706022011507165160435">Regression October </option>
+            <option value="7266568446230212571710484704002417251509421764977">Regression Runway Estate 31-10-17-14-45</option>
+            <option value="5631503243608116056147716850427618351509429929230">Regression Runway Estate 31-10-17-15-01</option>
+            <option value="4104606232532432181173765301786413871509428145449">Regression Runway Estate 31-10-17-16-42</option>
+            <option value="8568367534743713057555316631783640621509429166074">Regression Runway Estate 31-10-17-16-50</option>
+            <option value="3136638788630278227418440566480745831496374802527">Reg_JuneEstate</option>
+            <option value="3046507424606054661352724450162153551512686716910">Rgeression December estate</option>
+            <option value="1611332514111267882781868560420664331456098747730">Rushes</option>
+            <option value="7858553124074250365355503418455671271508728814034">Sapphire</option>
+            <option value="8254623653682040510146328046880201401456098745830">Sea Sands</option>
+            <option value="4711408761124011025461021260846188751456098748140">Stamford Lea</option>
+            <option value="6807264235863681045368653105065404101456098749165">Star Point</option>
+            <option value="8264876108338703052752508333221058631499740965949">Swat</option>
+            <option value="7816224760720527865344285543284243301456098747922">Teppani</option>
+            <option value="5104840823560485434536824231531043711492056944850">test 1304</option>
+            <option value="1771825477516370131271622174133668761492473609283">Test 1804 estate</option>
+            <option value="6678021540225573517253060141437874201509343299745">Test 30-10-Buddhika</option>
+            <option value="5144664321404133368455435212302781201501804216335">Test August regression</option>
+            <option value="3887812773807735431864312870517367001470786438466">Test create 1008</option>
+            <option value="5238876336612404071701850286064802311511147264679">Test JK Estate</option>
+            <option value="4144287350774101173543088152638358241496373945846">Test June Reg1</option>
+            <option value="5343381027700806611053002405787884481492757691713">Test Landy Estate</option>
+            <option value="7868324660116382713648874033615858811490599106049">TestEstate_1</option>
+            <option value="4127521325134153844558006317562348261490599106535">TestEstate_2</option>
+            <option value="2572538553653223184752024888505071711462943420467">Testington Estate</option>
+            <option value="7206771266533743371784756727382838321509405927562">TestReg 31-10-1 Estate</option>
+            <option value="2707355141445878531334160522188535161503896885804">TestReg Estate</option>
+            <option value="4411871556273732553365701044618344301460508814142">Urbanite Estate</option>
+            <option value="6344656840414230784755237373047447161456098748323">Varese</option>
+            <option value="2562563574083836113620888218242283651462944975385">Wednesday Estate</option>
+        </select>
+    </div><div class="c-filter" id="stage-filter-id" style="display: none;">
+        <label for="filter-stage">Stage</label>
+        <select id="filter-stage" name="filter-stage" class="form-control"><option value="" selected="">All</option><option value="8170330624646111065826887211212772321486080637781">3</option><option value="6448128827867428551432500545423038471485835869686">4</option><option value="6428661252434887541118826548123605431486341331934">6</option><option value="2053635150752456687414447046048601881456104495110">8</option></select>
+    </div><div class="c-filter" id="status-filter-id" style="display: none;">
+        <label for="filter-status">Status</label>
+        <select id="filter-status" name="filter-status" class="form-control">
+            <option value="" selected="">All</option>
+            <option value="2023881426742818489">Available</option>
+            <option value="5152001426742818474">Reserved</option>
+            <option value="8042851426742818497">Deposit</option>
+            <option value="4666711426742818489">Sold</option>
+            <option value="7788871426742818467">Sold by Other</option>
+            <option value="5683071426742818453">Cancelled</option>
+            <option value="5683071426742818466">Unknown</option>
+        </select>
+    </div><div class="c-filter" id="titledate-filter-id" style="display: none;">
+        <label for="filter-titledate">Title Date</label>
+        <div class="ms-ctn form-control ms-as-string form-control" style="width:125px" id="filter-titledate"><span class="ms-helper " style="display: none;"></span><div class="ms-sel-ctn"><input type="text" class="" placeholder="All" style="width: 57px;"><div style="display: none;"></div></div><div class="ms-trigger"><div class="ms-trigger-ico"></div></div></div>
+    </div><div class="c-filter" id="frontage-filter-id" style="">
+        <label for="filter-frontage">Frontage (m)</label>
+        <div class="ms-ctn form-control ms-as-string form-control" style="width:125px" id="filter-frontage"><span class="ms-helper " style="display: inline;"></span><div class="ms-sel-ctn"><div class="ms-sel-item ms-sel-text ">All</div><input type="text" class="" placeholder="" style="width: 29.4688px;"><div style="display: none;"><input type="hidden" name="filter-frontage[]" value=""></div></div><div class="ms-trigger"><div class="ms-trigger-ico"></div></div></div>
+    </div></div>
+            </div>
+        </div>
+        <div id="c-filter-popup-container" class="cr-background-color-highlight-2" style="display: none;"><div class="c-filter" id="area-filter-id" style="">
+        <label for="filter-area">Area (m2)</label>
+        <div class="ms-ctn form-control ms-as-string form-control" style="width:125px" id="filter-area"><span class="ms-helper " style="display: none;"></span><div class="ms-sel-ctn"><input type="text" class="" placeholder="All" style="width: 57px;"><div style="display: none;"></div></div><div class="ms-trigger"><div class="ms-trigger-ico"></div></div></div>
+    </div><div class="c-filter" id="price-filter-id" style="">
+        <label for="filter-price">Price ($)</label>
+        <div class="ms-ctn form-control ms-as-string form-control" style="width:250px" id="filter-price"><span class="ms-helper " style="display: none;"></span><div class="ms-sel-ctn"><input type="text" class="" placeholder="All" style="width: 182px;"><div style="display: none;"></div></div><div class="ms-trigger"><div class="ms-trigger-ico"></div></div></div>
+    </div><div class="c-filter" id="product-filter-id" style="">
+        <label for="filter-product">Show</label>
+        <select id="filter-product" name="filter-product" class="form-control">
+            <option value="" selected="">All</option>
+            <option value="100">Not Published</option>
+            <option value="400">Published</option>
+        </select>
+    </div></div>
+    </div>
+</form>
+												<!-- SEARCH BAR END -->
+
+                                                <span id="c-table-prop" trigger="c-table-prop-div" class="fa fa-cog" aria-hidden="true"></span>
+                                                <div id="c-table-prop-div" style="display: none;"><div><input type="checkbox" class="c-table-prop-visibility" id="c-column-lotColumn" position="1" column-id="lotColumn" checked=""><label for="c-column-lotColumn" style="margin-left: 10px;">Lot</label></div><div><input type="checkbox" class="c-table-prop-visibility" id="c-column-addressColumn" position="2" column-id="addressColumn" checked=""><label for="c-column-addressColumn" style="margin-left: 10px;">Address</label></div><div><input type="checkbox" class="c-table-prop-visibility" id="c-column-projectStageColumn" position="3" column-id="projectStageColumn" checked=""><label for="c-column-projectStageColumn" style="margin-left: 10px;">Project - Stage</label></div><div><input type="checkbox" class="c-table-prop-visibility" id="c-column-p2pColumn" position="4" column-id="p2pColumn" checked=""><label for="c-column-p2pColumn" style="margin-left: 10px;">P2P</label></div><div><input type="checkbox" class="c-table-prop-visibility" id="c-column-titleDateColumn" position="5" column-id="titleDateColumn" checked=""><label for="c-column-titleDateColumn" style="margin-left: 10px;">Title Date</label></div><div><input type="checkbox" class="c-table-prop-visibility" id="c-column-frontageMColumn" position="6" column-id="frontageMColumn" checked=""><label for="c-column-frontageMColumn" style="margin-left: 10px;">Frontage (m)</label></div><div><input type="checkbox" class="c-table-prop-visibility" id="c-column-depthMColumn" position="7" column-id="depthMColumn" checked=""><label for="c-column-depthMColumn" style="margin-left: 10px;">Depth (m)</label></div><div><input type="checkbox" class="c-table-prop-visibility" id="c-column-areaM2Column" position="8" column-id="areaM2Column" checked=""><label for="c-column-areaM2Column" style="margin-left: 10px;">Area (m2)</label></div><div><input type="checkbox" class="c-table-prop-visibility" id="c-column-priceColumn" position="9" column-id="priceColumn" checked=""><label for="c-column-priceColumn" style="margin-left: 10px;">Price</label></div><div><input type="checkbox" class="c-table-prop-visibility" id="c-column-dripsColumn" position="10" column-id="dripsColumn" checked=""><label for="c-column-dripsColumn" style="margin-left: 10px;">DRIPs</label></div><div><input type="checkbox" class="c-table-prop-visibility" id="c-column-statusColumn" position="11" column-id="statusColumn" checked=""><label for="c-column-statusColumn" style="margin-left: 10px;">Status</label></div><div><input type="checkbox" class="c-table-prop-visibility" id="c-column-marketingStatusColumn" position="12" column-id="marketingStatusColumn" checked=""><label for="c-column-marketingStatusColumn" style="margin-left: 10px;">Marketing Status</label></div><div><input type="checkbox" class="c-table-prop-visibility" id="c-column-orientationColumn" position="13" column-id="orientationColumn" checked=""><label for="c-column-orientationColumn" style="margin-left: 10px;">Orientation</label></div><div><input type="checkbox" class="c-table-prop-visibility" id="c-column-typeColumn" position="14" column-id="typeColumn" checked=""><label for="c-column-typeColumn" style="margin-left: 10px;">Type</label></div></div>
+												<!-- LAND LIST BEGIN -->
+												<div class="c-ibox-inner-content">
+
+<!-- 												<div class="table-responsive"> -->
+													<div id="landlisttable_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="landlisttable_length"><label>Show <select name="landlisttable_length" aria-controls="landlisttable" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="landlisttable_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="Keyword search..." aria-controls="landlisttable"></label></div><table id="landlisttable" class="table table-striped c-data-table nowrap c-dataTable no-footer dtr-inline collapsed dataTable" width="100%" role="grid" aria-describedby="landlisttable_info" style="width: 100%;">
+	<thead>
+		<tr role="row"><th class="sorting_disabled" rowspan="1" colspan="1" aria-label="
+				
+				
+			" style="width: 30px;">
+				<input type="checkbox" class="c-checkbox" id="tick-all" name="tick-all">
+				<label for="tick-all"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label>
+			</th><th class="sorting_asc" tabindex="0" aria-controls="landlisttable" rowspan="1" colspan="1" aria-label="Lot: activate to sort column descending" style="width: 21px;" aria-sort="ascending">Lot</th><th class="sorting" tabindex="0" aria-controls="landlisttable" rowspan="1" colspan="1" aria-label="Address: activate to sort column ascending" style="width: 170px;">Address</th><th class="sorting" tabindex="0" aria-controls="landlisttable" rowspan="1" colspan="1" aria-label="Project - Stage: activate to sort column ascending" style="width: 142px;">Project - Stage</th><th class="sorting" tabindex="0" aria-controls="landlisttable" rowspan="1" colspan="1" aria-label="P2P: activate to sort column ascending" style="width: 23px;">P2P</th><th class="sorting" tabindex="0" aria-controls="landlisttable" rowspan="1" colspan="1" aria-label="Title Date: activate to sort column ascending" style="width: 64px;">Title Date</th><th class="text-right sorting" tabindex="0" aria-controls="landlisttable" rowspan="1" colspan="1" aria-label="Frontage (m): activate to sort column ascending" style="width: 76px;">Frontage (m)</th><th class="text-right sorting" tabindex="0" aria-controls="landlisttable" rowspan="1" colspan="1" aria-label="Depth (m): activate to sort column ascending" style="width: 60px;">Depth (m)</th><th class="text-right sorting" tabindex="0" aria-controls="landlisttable" rowspan="1" colspan="1" aria-label="Area (m2) : activate to sort column ascending" style="width: 55px;">Area <span>(m<sup>2</sup>)</span> </th><th class="text-right sorting" tabindex="0" aria-controls="landlisttable" rowspan="1" colspan="1" aria-label="Price: activate to sort column ascending" style="width: 68px;">Price</th><th class="sorting" tabindex="0" aria-controls="landlisttable" rowspan="1" colspan="1" aria-label="DRIPs: activate to sort column ascending" style="width: 35px;">DRIPs</th><th class="sorting" tabindex="0" aria-controls="landlisttable" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending" style="width: 0px; display: none;">Status</th><th class="sorting" tabindex="0" aria-controls="landlisttable" rowspan="1" colspan="1" aria-label="Marketing Status: activate to sort column ascending" style="width: 0px; display: none;">Marketing Status</th><th class="sorting" tabindex="0" aria-controls="landlisttable" rowspan="1" colspan="1" aria-label="Orientation: activate to sort column ascending" style="width: 0px; display: none;">Orientation</th><th class="sorting" tabindex="0" aria-controls="landlisttable" rowspan="1" colspan="1" aria-label="Type: activate to sort column ascending" style="width: 0px; display: none;">Type</th></tr>
+	</thead>
+	<tbody id="landlisttablebody" class="c-wrapchildbody" style="color: black !important;"><tr class="c-cursor-pointer c-show-land-detail odd" id="land-4503807778005575264401568532605502701486080638043" destination="4503807778005575264401568532605502701486080638043" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="4503807778005575264401568532605502701486080638043" name="4503807778005575264401568532605502701486080638043"><label for="4503807778005575264401568532605502701486080638043"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="4503807778005575264401568532605502701486080638043-lot-ownerccid" value="636750636"><input type="hidden" class="4503807778005575264401568532605502701486080638043-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="001S4V8E650V8I075D7C698H0B9W"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="301"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">301</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing c-portal-hnl c-show-list-publishing c-cursor-pointer" destination="4503807778005575264401568532605502701486080638043">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">20.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>527.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 165,100.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-warning status-button">None</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #663300; border-color: transparent; " destination="4503807778005575264401568532605502701486080638043">Sold by Other</button></td><td class="c-click" style="width: 1%; display: none;">Discovery Point: Metro Release</td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail even" id="land-2042086463602421623411872130382023331486080818171" destination="2042086463602421623411872130382023331486080818171" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="2042086463602421623411872130382023331486080818171" name="2042086463602421623411872130382023331486080818171"><label for="2042086463602421623411872130382023331486080818171"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="2042086463602421623411872130382023331486080818171-lot-ownerccid" value="636750636"><input type="hidden" class="2042086463602421623411872130382023331486080818171-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0E1X4081630Q8D0P6898953K8B64"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="302"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">302</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing c-portal-hnl c-show-list-publishing c-cursor-pointer" destination="2042086463602421623411872130382023331486080818171">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 165,000.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="2042086463602421623411872130382023331486080818171">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="2042086463602421623411872130382023331486080818171">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail odd" id="land-7120357587887178882283026234424046101500620690858" destination="7120357587887178882283026234424046101500620690858" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="7120357587887178882283026234424046101500620690858" name="7120357587887178882283026234424046101500620690858"><label for="7120357587887178882283026234424046101500620690858"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="7120357587887178882283026234424046101500620690858-lot-ownerccid" value="636750636"><input type="hidden" class="7120357587887178882283026234424046101500620690858-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0I1T5R0D00682T0J5L4K6X0E3V7W"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="303"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">303</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing c-portal-hnl c-show-list-publishing c-cursor-pointer" destination="7120357587887178882283026234424046101500620690858">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 155,000.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-warning status-button">None</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="7120357587887178882283026234424046101500620690858">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail even" id="land-7728618625870260422581525400303756881500620690239" destination="7728618625870260422581525400303756881500620690239" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="7728618625870260422581525400303756881500620690239" name="7728618625870260422581525400303756881500620690239"><label for="7728618625870260422581525400303756881500620690239"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="7728618625870260422581525400303756881500620690239-lot-ownerccid" value="636750636"><input type="hidden" class="7728618625870260422581525400303756881500620690239-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0U125R0D0P6D2Q0J6B025A626857"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="304"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">304</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 155,000.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="7728618625870260422581525400303756881500620690239">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #FF6600; border-color: transparent; " destination="7728618625870260422581525400303756881500620690239">Reserved</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail odd" id="land-3315635034068255271048523083354238101500858911831" destination="3315635034068255271048523083354238101500858911831" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="3315635034068255271048523083354238101500858911831" name="3315635034068255271048523083354238101500858911831"><label for="3315635034068255271048523083354238101500858911831"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="3315635034068255271048523083354238101500858911831-lot-ownerccid" value="636750636"><input type="hidden" class="3315635034068255271048523083354238101500858911831-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0R1U5G0O0C8B5K8A6K8I9E6F4S7B"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="305"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">305</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 200.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="3315635034068255271048523083354238101500858911831">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #663300; border-color: transparent; " destination="3315635034068255271048523083354238101500858911831">Sold by Other</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail even" id="land-2211731442680516027083668137857135501500872845882" destination="2211731442680516027083668137857135501500872845882" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="2211731442680516027083668137857135501500872845882" name="2211731442680516027083668137857135501500872845882"><label for="2211731442680516027083668137857135501500872845882"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="2211731442680516027083668137857135501500872845882-lot-ownerccid" value="636750636"><input type="hidden" class="2211731442680516027083668137857135501500872845882-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0F1Z5E0J038X782S7C104G2T798W"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="306"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">306</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 158,000.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="2211731442680516027083668137857135501500872845882">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #663300; border-color: transparent; " destination="2211731442680516027083668137857135501500872845882">Sold by Other</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail odd" id="land-2164616125511372016830330157634147001500867073837" destination="2164616125511372016830330157634147001500867073837" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="2164616125511372016830330157634147001500867073837" name="2164616125511372016830330157634147001500867073837"><label for="2164616125511372016830330157634147001500867073837"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="2164616125511372016830330157634147001500867073837-lot-ownerccid" value="636750636"><input type="hidden" class="2164616125511372016830330157634147001500867073837-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="011I5F0U0N8Q687N0L11950P1O3Y"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="307"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">307</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing c-portal-hnl c-show-list-publishing c-cursor-pointer" destination="2164616125511372016830330157634147001500867073837">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 157,000.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-warning status-button">None</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="2164616125511372016830330157634147001500867073837">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail even" id="land-7660872348528567114424000507247602521500867434817" destination="7660872348528567114424000507247602521500867434817" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="7660872348528567114424000507247602521500867434817" name="7660872348528567114424000507247602521500867434817"><label for="7660872348528567114424000507247602521500867434817"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="7660872348528567114424000507247602521500867434817-lot-ownerccid" value="636750636"><input type="hidden" class="7660872348528567114424000507247602521500867434817-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0I1I54090E8D6B7L3213662K186X"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="308"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">308</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing c-portal-hnl c-show-list-publishing c-cursor-pointer" destination="7660872348528567114424000507247602521500867434817">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 153,000.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="7660872348528567114424000507247602521500867434817">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="7660872348528567114424000507247602521500867434817">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail odd" id="land-8232714078045370177540024357487147611500867615300" destination="8232714078045370177540024357487147611500867615300" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="8232714078045370177540024357487147611500867615300" name="8232714078045370177540024357487147611500867615300"><label for="8232714078045370177540024357487147611500867615300"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="8232714078045370177540024357487147611500867615300-lot-ownerccid" value="636750636"><input type="hidden" class="8232714078045370177540024357487147611500867615300-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0F125F0W0S8M657O433K3G2M3S40"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="309"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">309</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 153,000.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="8232714078045370177540024357487147611500867615300">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #FF6600; border-color: transparent; " destination="8232714078045370177540024357487147611500867615300">Reserved</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail even" id="land-4647266464338284724664677353358584611500867614895" destination="4647266464338284724664677353358584611500867614895" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="4647266464338284724664677353358584611500867614895" name="4647266464338284724664677353358584611500867614895"><label for="4647266464338284724664677353358584611500867614895"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="4647266464338284724664677353358584611500867614895-lot-ownerccid" value="636750636"><input type="hidden" class="4647266464338284724664677353358584611500867614895-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0D1G5G0Z0L846572532V759E8T6O"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="310"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">310</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 137,500.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="4647266464338284724664677353358584611500867614895">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="4647266464338284724664677353358584611500867614895">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail odd" id="land-2172212578351528632650658027461672111500867795247" destination="2172212578351528632650658027461672111500867795247" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="2172212578351528632650658027461672111500867795247" name="2172212578351528632650658027461672111500867795247"><label for="2172212578351528632650658027461672111500867795247"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="2172212578351528632650658027461672111500867795247-lot-ownerccid" value="636750636"><input type="hidden" class="2172212578351528632650658027461672111500867795247-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0O1C540X0U8R6A7F6R0S7M724C0L"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="311"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">311</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 144,100.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="2172212578351528632650658027461672111500867795247">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="2172212578351528632650658027461672111500867795247">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail even" id="land-1351767705227246648318233442275108851500867795583" destination="1351767705227246648318233442275108851500867795583" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="1351767705227246648318233442275108851500867795583" name="1351767705227246648318233442275108851500867795583"><label for="1351767705227246648318233442275108851500867795583"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="1351767705227246648318233442275108851500867795583-lot-ownerccid" value="636750636"><input type="hidden" class="1351767705227246648318233442275108851500867795583-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="061R5U050V8C6U76614O73990X1K"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="312"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">312</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 144,100.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="1351767705227246648318233442275108851500867795583">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="1351767705227246648318233442275108851500867795583">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail odd" id="land-3608881856170778538613857656000488261500867795904" destination="3608881856170778538613857656000488261500867795904" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="3608881856170778538613857656000488261500867795904" name="3608881856170778538613857656000488261500867795904"><label for="3608881856170778538613857656000488261500867795904"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="3608881856170778538613857656000488261500867795904-lot-ownerccid" value="636750636"><input type="hidden" class="3608881856170778538613857656000488261500867795904-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="081L5K07038Y6Z787B09927Q7H21"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="313"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">313</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>529.00</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 146,000.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-warning status-button">None</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #FF6600; border-color: transparent; " destination="3608881856170778538613857656000488261500867795904">Reserved</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail even" id="land-6383888618452676016673821645373473041500867975939" destination="6383888618452676016673821645373473041500867975939" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="6383888618452676016673821645373473041500867975939" name="6383888618452676016673821645373473041500867975939"><label for="6383888618452676016673821645373473041500867975939"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="6383888618452676016673821645373473041500867975939-lot-ownerccid" value="636750636"><input type="hidden" class="6383888618452676016673821645373473041500867975939-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0I135G000081607S7R8W7M55819H"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="314"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">314</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>526.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 151,000.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-warning status-button">None</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #663300; border-color: transparent; " destination="6383888618452676016673821645373473041500867975939">Sold by Other</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail odd" id="land-6202174052605116048334230576364500261500867976640" destination="6202174052605116048334230576364500261500867976640" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="6202174052605116048334230576364500261500867976640" name="6202174052605116048334230576364500261500867976640"><label for="6202174052605116048334230576364500261500867976640"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="6202174052605116048334230576364500261500867976640-lot-ownerccid" value="636750636"><input type="hidden" class="6202174052605116048334230576364500261500867976640-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0S1H5F0P058F6H7Y893L4P440T4B"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="315"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">315</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 153,500.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="6202174052605116048334230576364500261500867976640">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="6202174052605116048334230576364500261500867976640">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail even" id="land-6328172286577886242340147688351654511500867976265" destination="6328172286577886242340147688351654511500867976265" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="6328172286577886242340147688351654511500867976265" name="6328172286577886242340147688351654511500867976265"><label for="6328172286577886242340147688351654511500867976265"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="6328172286577886242340147688351654511500867976265-lot-ownerccid" value="636750636"><input type="hidden" class="6328172286577886242340147688351654511500867976265-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0V195Z0U0B8O65798I9L43998Z22"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="316"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">316</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 151,500.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="6328172286577886242340147688351654511500867976265">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="6328172286577886242340147688351654511500867976265">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail odd" id="land-7687247483354588475704376584732435771500867975593" destination="7687247483354588475704376584732435771500867975593" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="7687247483354588475704376584732435771500867975593" name="7687247483354588475704376584732435771500867975593"><label for="7687247483354588475704376584732435771500867975593"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="7687247483354588475704376584732435771500867975593-lot-ownerccid" value="636750636"><input type="hidden" class="7687247483354588475704376584732435771500867975593-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="061P570L098W63789U3O990H5U07"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="317"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">317</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 151,800.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="7687247483354588475704376584732435771500867975593">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="7687247483354588475704376584732435771500867975593">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail even" id="land-4542032502677114681826417161600066461500868201575" destination="4542032502677114681826417161600066461500868201575" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="4542032502677114681826417161600066461500868201575" name="4542032502677114681826417161600066461500868201575"><label for="4542032502677114681826417161600066461500868201575"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="4542032502677114681826417161600066461500868201575-lot-ownerccid" value="636750636"><input type="hidden" class="4542032502677114681826417161600066461500868201575-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0S1G560U0H8X627T9I9T379J904Y"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="318"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">318</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 151,800.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="4542032502677114681826417161600066461500868201575">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="4542032502677114681826417161600066461500868201575">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail odd" id="land-4658626676265705513677763024013116011500868201079" destination="4658626676265705513677763024013116011500868201079" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="4658626676265705513677763024013116011500868201079" name="4658626676265705513677763024013116011500868201079"><label for="4658626676265705513677763024013116011500868201079"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="4658626676265705513677763024013116011500868201079-lot-ownerccid" value="636750636"><input type="hidden" class="4658626676265705513677763024013116011500868201079-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="06115E04008E6T8X0A8S3E52904Z"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="319"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">319</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 154,800.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="4658626676265705513677763024013116011500868201079">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="4658626676265705513677763024013116011500868201079">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail even" id="land-7057358363022611221230674660472003481500868561822" destination="7057358363022611221230674660472003481500868561822" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="7057358363022611221230674660472003481500868561822" name="7057358363022611221230674660472003481500868561822"><label for="7057358363022611221230674660472003481500868561822"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="7057358363022611221230674660472003481500868561822-lot-ownerccid" value="636750636"><input type="hidden" class="7057358363022611221230674660472003481500868561822-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="08155D0Y048A6Z8F358T3U353G3K"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="320"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">320</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 153,100.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="7057358363022611221230674660472003481500868561822">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="7057358363022611221230674660472003481500868561822">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail odd" id="land-2841738068148384046536635513613747351500868562175" destination="2841738068148384046536635513613747351500868562175" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="2841738068148384046536635513613747351500868562175" name="2841738068148384046536635513613747351500868562175"><label for="2841738068148384046536635513613747351500868562175"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="2841738068148384046536635513613747351500868562175-lot-ownerccid" value="636750636"><input type="hidden" class="2841738068148384046536635513613747351500868562175-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0R1T5K0B0D876J8V477B9O4F7Q32"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="321"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">321</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 155,100.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="2841738068148384046536635513613747351500868562175">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="2841738068148384046536635513613747351500868562175">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail even" id="land-2577807827430140433510265842461433041500868743218" destination="2577807827430140433510265842461433041500868743218" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="2577807827430140433510265842461433041500868743218" name="2577807827430140433510265842461433041500868743218"><label for="2577807827430140433510265842461433041500868743218"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="2577807827430140433510265842461433041500868743218-lot-ownerccid" value="636750636"><input type="hidden" class="2577807827430140433510265842461433041500868743218-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0G115H040D8L6I8D553B7G794G57"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="322"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">322</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 156,000.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="2577807827430140433510265842461433041500868743218">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #663300; border-color: transparent; " destination="2577807827430140433510265842461433041500868743218">Sold by Other</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail odd" id="land-6137774562170778816026826262027716751500868742178" destination="6137774562170778816026826262027716751500868742178" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="6137774562170778816026826262027716751500868742178" name="6137774562170778816026826262027716751500868742178"><label for="6137774562170778816026826262027716751500868742178"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="6137774562170778816026826262027716751500868742178-lot-ownerccid" value="636750636"><input type="hidden" class="6137774562170778816026826262027716751500868742178-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0B1S5000028R658V6R0S8H2I5E8D"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="323"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">323</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 157,000.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="6137774562170778816026826262027716751500868742178">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="6137774562170778816026826262027716751500868742178">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail even" id="land-8646005158723386780274524363664803101500868742867" destination="8646005158723386780274524363664803101500868742867" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="8646005158723386780274524363664803101500868742867" name="8646005158723386780274524363664803101500868742867"><label for="8646005158723386780274524363664803101500868742867"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="8646005158723386780274524363664803101500868742867-lot-ownerccid" value="636750636"><input type="hidden" class="8646005158723386780274524363664803101500868742867-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0W145Z0Q0O8U6M866Y5R9P4V464P"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="324"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">324</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 158,000.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="8646005158723386780274524363664803101500868742867">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #008000; border-color: transparent; " destination="8646005158723386780274524363664803101500868742867">Available</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr><tr class="c-cursor-pointer c-show-land-detail odd" id="land-5316635555267466516215177824078056161500868742530" destination="5316635555267466516215177824078056161500868742530" role="row"><td style="padding-left: 18px; width: 1%;" tabindex="0"><input type="checkbox" class="c-checkbox jq-selected-land" id="5316635555267466516215177824078056161500868742530" name="5316635555267466516215177824078056161500868742530"><label for="5316635555267466516215177824078056161500868742530"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div></label><input type="hidden" class="5316635555267466516215177824078056161500868742530-lot-ownerccid" value="636750636"><input type="hidden" class="5316635555267466516215177824078056161500868742530-lot-importallowed" value="false"><input type="hidden" class="c-property-r4Productid" value="0H1I5I0O0H8H678X6M9018828P4W"><input type="hidden" class="c-property-ownerccid" value="636750636"><input type="hidden" class="c-property-ownerrunwayurl"><input type="hidden" class="c-property-ownersalesprocessfromr4"><input type="hidden" class="c-property-lot" value="325"><input type="hidden" class="c-property-estate" value="Allens Farm"><input type="hidden" class="c-property-address" value="Mickleham3064 Australia"></td><td class="c-click sorting_1" style="width: 5%;"><div class="c-table-container"><div class="c-table-cell-container">325</div></div></td><td class="c-click"><span>Mickleham3064 Australia</span></td><td class="c-click">Allens Farm - 3</td><td style="width: 1%;"><div><span class="c-portal-publishing">P</span></div></td><td class="c-click" data-order=""></td><td class="c-click text-right" style="width: 1%;">10.00</td><td class="c-click text-right" style="width: 1%;">15.00</td><td class="c-click text-right" style="width: 1%;"><span>528.50</span></td><td class="c-click text-right" style="width: 1%;"><span>$ 161,000.00</span></td><td style="width: 1%;"><button type="button" class="btn btn-xs btn-info c-show-list-drip" style="background-color: #0080ff; border-color: transparent;" destination="5316635555267466516215177824078056161500868742530">View</button></td><td style="width: 1%; display: none;"><button type="button" class="btn btn-xs btn-info c-reserve-property" style="background-color: #FF6600; border-color: transparent; " destination="5316635555267466516215177824078056161500868742530">Reserved</button></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td><td class="c-click" style="width: 1%; display: none;"></td></tr></tbody>
+</table><div class="dataTables_info" id="landlisttable_info" role="status" aria-live="polite">Showing 1 to 25 of 66 entries</div><div class="dataTables_paginate paging_numbers" id="landlisttable_paginate"><span><a class="paginate_button current" aria-controls="landlisttable" data-dt-idx="0" tabindex="0">1</a><a class="paginate_button " aria-controls="landlisttable" data-dt-idx="1" tabindex="0">2</a><a class="paginate_button " aria-controls="landlisttable" data-dt-idx="2" tabindex="0">3</a></span></div></div>
+
+<!-- 												</div> -->
+
+												</div>
+												<!-- LAND LIST END -->
+											</div>
+										</div>
+									</div>
+                                </div>
+                            </div>
+							<div>
+								<span>Text meant for Product Disclaimer</span>
+							</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CONTENT END -->
+
+				<form id="r4-reservation-form" name="r4-reservation-form" method="post">
+					<input type="hidden" id="clientProductId" name="clientProductId">
+					<input type="hidden" id="isLandProduct" name="isLandProduct" value="isLandProduct">
+					<input type="hidden" id="isList" name="isList" value="isList">
+					<input type="hidden" id="ownerRunwayUrl" name="ownerRunwayUrl">
+					<input type="hidden" id="ownerCompanyLogo" name="ownerCompanyLogo">
+				</form>
+
+				<!-- FOOTER LOGO FRAGMENT -->
+            	<div id="runwayLogo">
+</div>
+
+            	<!-- FOOTER FRAGMENT -->
+            	<div class="footer">
+	<div class="pull-right">17 December 2017</div>
+	<div>
+		© Runway <span>2017</span>
+	</div>
+</div>
+
+            </div>
+        </div>
+        <input type="text" id="dummy-street" name="dummy-street" style="display: none;">
+
+        <!-- LOGOUT FORM FRAGMENT -->
+        <form id="logout-form" method="post" action="https://r6dev.runway.com.au/runway/j_spring_security_logout">
+</form>
+
+        <!-- POST FORM FRAGMENT -->
+        <form id="post-form" action="https://r6dev.runway.com.au/runway/rep/pipelinelandlist#" method="post">
+	<input type="hidden" name="postid" id="postid" value="">
+	<input type="hidden" name="postaction" id="postaction" value="">
+	<input type="hidden" name="postvalue" id="postvalue" value="">
+	<input type="hidden" name="postdetail" id="postdetail" value="">
+</form>
+
+        <script src="./PIPELINE SALES REP_files/js_constant.js"></script>
+        <script>
+        	/*<![CDATA[*/
+        	var newLotUrl = '/runway/rep/pipelinelot/create';
+            var postUrl = '/runway/rep/pipelinelanddetails';
+			var submitUrl = '/runway/rep/pipelinelandlist';
+			var partnerPublishingUrl = '/runway/rep/pipelinelandlist';
+			var portalPublishingUrl = '/runway/rep/pipelinelandexternalpublishlist';
+			var publishPropertiesUrl = '/runway/rep/land/publish/properties';
+			var importPropertiesUrl = '/runway/rep/land/import/properties';
+			var handoverPropertiesUrl = '/runway/rep/land/handover/properties';
+			var reservePropertiesUrl = '/runway/rep/land/reserve/property';
+			var downloadPropertiesUrl = '/runway/rep/csv/download/properties';
+            var externalpublishPropertiesUrl = '/runway/rep/land/extpublish/properties';
+            var addPropertyAjaxUrl = '/runway/rep/externaladdproperty/post/ajax';
+
+			var landactionlist = [{'intitemid':null,'itemid':2832344433814327893,'itemlabel':'Create','itemname':'Create','itemtypeid':7072281429502624629,'smallitemid':null},{'intitemid':null,'itemid':8316141443404980710,'itemlabel':'Download','itemname':'Download','itemtypeid':7072281429502624629,'smallitemid':null},{'intitemid':null,'itemid':6402311433814327858,'itemlabel':'Partner Publishing','itemname':'Partner Publishing','itemtypeid':7072281429502624629,'smallitemid':null},{'intitemid':null,'itemid':8048121433814327858,'itemlabel':'Reserve','itemname':'Reserve','itemtypeid':7072281429502624629,'smallitemid':null}];
+        	var getStageFilterUrl = '/runway/rep/filter/list/stage';
+        	var getLotUrl = '/runway/rep/land/show/list/lot';
+        	var getListDRIPUrl = '/runway/rep/land/show/list/drip';
+        	var getListPublishingUrl = '/runway/rep/land/show/list/publishing';
+            var partnerPublishingModelUrl = '/runway/rep/land/show/list/drip';
+            var portalPublishingModelUrl = '/runway/rep/land/show/list/drip';
+            var getClientCompanySaleProcessUrl = '/runway/rep/salesprocess/details';
+
+            var r4ReservationUrl = '/runway/rep/pipelinereservationprocess';
+
+            var tablePropLocalVar = "landPartnerListTableProp"+'331543700'+'mariust@runway.com.au'.replace(JSCONSTANT.REMOVE_EMAIL_CHARS, '');
+
+            var listexternalPortal = [];
+            if('[{\"externalportalid\":6001,\"extportallabel\":\"REA\",\"extportalicon\":\"RE\",\"active\":true},{\"externalportalid\":6002,\"extportallabel\":\"Domain\",\"extportalicon\":\"D\",\"active\":true},{\"externalportalid\":6003,\"extportallabel\":\"H and L\",\"extportalicon\":\"HL\",\"active\":true},{\"externalportalid\":6012,\"extportallabel\":\"Website\",\"extportalicon\":\"W\",\"active\":true}]' != null){
+                var listexternalPortalJSON = '[{\"externalportalid\":6001,\"extportallabel\":\"REA\",\"extportalicon\":\"RE\",\"active\":true},{\"externalportalid\":6002,\"extportallabel\":\"Domain\",\"extportalicon\":\"D\",\"active\":true},{\"externalportalid\":6003,\"extportallabel\":\"H and L\",\"extportalicon\":\"HL\",\"active\":true},{\"externalportalid\":6012,\"extportallabel\":\"Website\",\"extportalicon\":\"W\",\"active\":true}]'.replace(/\:(\d+)([ ,}\]])/g, ':"$1"$2');
+                listexternalPortal = JSON.parse(listexternalPortalJSON);
+            }
+            var potentialUserString = '[{\"accessid\":7854124125131044034,\"accessname\":\"divyadev@runway.com.au\",\"title\":\"Ms\",\"firstname\":\"Dianne\",\"lastname\":\"Shaw\",\"contactname\":\"Dianne Shaw\",\"contactmobile\":\"0456 567 878\",\"contactemail\":\"divyadev@runway.com.au\",\"preferredcommtypeid\":6217261428465130107,\"createddate\":\"2016-02-01T10:22:11.000Z\",\"accessstatus\":5646421439024663771,\"statusname\":\"Active\",\"avatarurl\":\"https://s3-ap-southeast-2.amazonaws.com/pipeline-media-bucket/SwitchedOn/contact/XXPvoRc8FB.jpg\",\"passwordexpirydate\":\"2016-08-01T00:00:00.000Z\",\"lastlogindate\":\"2016-05-11T14:46:54.000Z\",\"invalidattempts\":0,\"parentaccessid\":6418211408426741717,\"clientid\":\"331543700\",\"externaluser\":false,\"defaultcompanyid\":\"673361388\",\"clientcompanyid\":\"636750636\",\"companyname\":\"Landy Developers Pty Ltd\",\"activationcode\":\"SNjasCRgRZ\",\"invitationsent\":true,\"visibletoothers\":true,\"locknotifications\":false,\"alertnotificationchange\":false},{\"accessid\":3441631511131294143,\"accessname\":\"runwaynovreg@runway.com.au\",\"title\":\"Dr\",\"firstname\":\"Runway\",\"lastname\":\"Novreg\",\"contactname\":\"Runway Novreg\",\"contactmobile\":\"\",\"contactemail\":\"runwaynovreg@runway.com.au\",\"preferredcommtypeid\":6217261428465130107,\"createddate\":\"2017-11-20T09:41:34.000Z\",\"accessstatus\":5646421439024663771,\"statusname\":\"Active\",\"passwordexpirydate\":\"2018-06-11T00:00:00.000Z\",\"lastlogindate\":\"2017-12-11T11:59:35.000Z\",\"invalidattempts\":0,\"parentaccessid\":6418211408426741717,\"clientid\":\"331543700\",\"externaluser\":true,\"defaultcompanyid\":\"673361388\",\"clientcompanyid\":\"636750636\",\"companyname\":\"Landy Developers Pty Ltd\",\"activationcode\":\"iq3IFyipzQ\",\"invitationsent\":true,\"visibletoothers\":true,\"locknotifications\":false,\"alertnotificationchange\":false},{\"accessid\":8526061503537319350,\"accessname\":\"swati.rahat10@gmail.com\",\"title\":\"Mrs\",\"firstname\":\"swati\",\"lastname\":\"kkkkk\",\"contactname\":\"swati kkkkk\",\"contactmobile\":\"0451 212 122\",\"contactemail\":\"swati.rahat10@gmail.com\",\"preferredcommtypeid\":6217261428465130107,\"createddate\":\"2017-08-24T11:15:19.000Z\",\"accessstatus\":5646421439024663771,\"statusname\":\"Active\",\"passwordexpirydate\":\"2018-02-28T00:00:00.000Z\",\"lastlogindate\":\"2017-12-08T15:47:24.000Z\",\"invalidattempts\":0,\"parentaccessid\":6418211408426741717,\"clientid\":\"331543700\",\"externaluser\":false,\"defaultcompanyid\":\"673361388\",\"clientcompanyid\":\"636750636\",\"companyname\":\"Landy Developers Pty Ltd\",\"activationcode\":\"doSvvUD8R3\",\"invitationsent\":false,\"visibletoothers\":true,\"locknotifications\":false,\"alertnotificationchange\":false},{\"accessid\":8608770106168850686,\"accessname\":\"tonyz1@runway.com.au\",\"title\":\"Mr\",\"firstname\":\"Tony\",\"lastname\":\"Zhang\",\"contactname\":\"Tony Zhang\",\"contactmobile\":\"\",\"contactemail\":\"tonyz1@runway.com.au\",\"preferredcommtypeid\":6217261428465130107,\"createddate\":\"2015-12-11T19:03:51.000Z\",\"accessstatus\":5646421439024663771,\"statusname\":\"Active\",\"passwordexpirydate\":\"2018-04-30T00:00:00.000Z\",\"lastlogindate\":\"2017-11-17T14:38:13.000Z\",\"invalidattempts\":0,\"parentaccessid\":6418211408426741717,\"clientid\":\"331543700\",\"externaluser\":false,\"defaultcompanyid\":\"673361388\",\"clientcompanyid\":\"636750636\",\"companyname\":\"Landy Developers Pty Ltd\",\"activationcode\":\"oGh7DnfYPJ\",\"invitationsent\":true,\"visibletoothers\":true,\"locknotifications\":false,\"alertnotificationchange\":true},{\"accessid\":7024301476232743242,\"accessname\":\"runwayqa2@gmail.com\",\"title\":\"Mr\",\"firstname\":\"Runway \",\"lastname\":\"Exterenal user test1\",\"contactname\":\"Runway  Exterenal user test1\",\"contactmobile\":\"\",\"contactemail\":\"runwayqa2@gmail.com\",\"preferredcommtypeid\":6217261428465130107,\"createddate\":\"2016-10-12T11:39:03.000Z\",\"accessstatus\":5619871236742818485,\"statusname\":\"Inactive\",\"passwordexpirydate\":\"2018-01-10T00:00:00.000Z\",\"lastlogindate\":\"2017-07-10T10:45:24.000Z\",\"invalidattempts\":0,\"parentaccessid\":6418211408426741717,\"clientid\":\"331543700\",\"externaluser\":true,\"defaultcompanyid\":\"673361388\",\"clientcompanyid\":\"636750636\",\"companyname\":\"Landy Developers Pty Ltd\",\"activationcode\":\"iQSzu46y29\",\"invitationsent\":true,\"visibletoothers\":true,\"locknotifications\":false,\"alertnotificationchange\":false},{\"accessid\":3321251675566834774,\"accessname\":\"runwayqa@hotmail.com\",\"title\":\"Mr\",\"firstname\":\"runwayqa@hotmail.com\",\"lastname\":\"12345\",\"contactname\":\"runwayqa@hotmail.com 12345\",\"contactmobile\":\"\",\"contactemail\":\"runwayqa@hotmail.com\",\"preferredcommtypeid\":6217261428465130107,\"createddate\":\"2016-01-05T09:52:18.000Z\",\"accessstatus\":6508401439024663770,\"statusname\":\"Invited\",\"avatarurl\":\"https://s3-ap-southeast-2.amazonaws.com/pipeline-media-bucket/SwitchedOn/contact/MIMkiSyCkF.jpg\",\"passwordexpirydate\":\"2017-08-10T00:00:00.000Z\",\"lastlogindate\":\"2017-02-10T11:54:12.000Z\",\"invalidattempts\":0,\"parentaccessid\":6418211408426741717,\"clientid\":\"331543700\",\"externaluser\":false,\"defaultcompanyid\":\"673361388\",\"clientcompanyid\":\"636750636\",\"companyname\":\"Landy Developers Pty Ltd\",\"activationcode\":\"1psksyusxM\",\"invitationsent\":true,\"visibletoothers\":true,\"locknotifications\":true,\"alertnotificationchange\":false}]'.replace(/\:(\d+)([ ,}\]])/g, ':"$1"$2');
+            var potentialUser = JSON.parse(potentialUserString);
+
+			var listPartnerSetJSON = '[{\"partnersetid\":2023331487555027706,\"partnersetname\":\"3 best\",\"clientcompanyid\":\"636750636\",\"active\":true,\"setDetails\":[{\"setdetailid\":1182471487555027706,\"partnercompanyid\":\"826185462\",\"partnercompanyname\":\"Mills Creek Builders\",\"active\":true},{\"setdetailid\":3823471487555178087,\"partnercompanyid\":\"622277336\",\"partnercompanyname\":\"West Sales Agents.\",\"active\":true},{\"setdetailid\":5437701487555178087,\"partnercompanyid\":\"828910835\",\"partnercompanyname\":\"Henley\",\"active\":true}]},{\"partnersetid\":8117021487905985966,\"partnersetname\":\"Mills and Henley\",\"clientcompanyid\":\"636750636\",\"active\":true,\"setDetails\":[{\"setdetailid\":2427001487905985966,\"partnercompanyid\":\"828910835\",\"partnercompanyname\":\"Henley\",\"active\":true},{\"setdetailid\":3573821487905985966,\"partnercompanyid\":\"826185462\",\"partnercompanyname\":\"Mills Creek Builders\",\"active\":true}]}]'.replace(/\:(\d+)([ ,}\]])/g, ':"$1"$2');
+			var listpartnerJSON = '[{\"partnerccid\":\"713448141\",\"partnercompanyname\":\"Apex Homes\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"128923585\",\"partnercompanyname\":\"Ext Agent Landy 01\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"651335484\",\"partnercompanyname\":\"Ext Builder\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"587073951\",\"partnercompanyname\":\"Ext Builder 2\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"671482710\",\"partnercompanyname\":\"Ext Builder 3\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"348910296\",\"partnercompanyname\":\"External test agent nov11\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"753096104\",\"partnercompanyname\":\"Frasers Property\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"828910835\",\"partnercompanyname\":\"Henley\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"505834243\",\"partnercompanyname\":\"Landy Project Marketer\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"826185462\",\"partnercompanyname\":\"Mills Creek Builders\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"535827330\",\"partnercompanyname\":\"New external sales agent\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"732983005\",\"partnercompanyname\":\"Northwind Property Agents\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"757968642\",\"partnercompanyname\":\"Oct regression\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"532792584\",\"partnercompanyname\":\"Pipeline Group\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"140981181\",\"partnercompanyname\":\"Reg dec external agent\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"785530920\",\"partnercompanyname\":\"Summit Homes Group\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"551342969\",\"partnercompanyname\":\"SWAT EA\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"200946287\",\"partnercompanyname\":\"Test external sales agent2\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"163675452\",\"partnercompanyname\":\"TrueValue Consultants\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"622277336\",\"partnercompanyname\":\"West Sales Agents.\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"partnerccid\":\"553282315\",\"partnercompanyname\":\"Woodards\",\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"}]'.replace(/\:(\d+)([ ,}\]])/g, ':"$1"$2');
+			var listhandoverpartnerJSON = '[]'.replace(/\:(\d+)([ ,}\]])/g, ':"$1"$2');
+			var titlelistJSON = '[{\"itemid\":1152031426739645197,\"itemname\":\"Dr\",\"itemlabel\":\"Dr\"},{\"itemid\":2661531426739645198,\"itemname\":\"Mr\",\"itemlabel\":\"Mr\"},{\"itemid\":4182741426739645197,\"itemname\":\"Mrs\",\"itemlabel\":\"Mrs\"},{\"itemid\":7645001426739645198,\"itemname\":\"Ms\",\"itemlabel\":\"Ms\"},{\"itemid\":1540461426739645215,\"itemname\":\"Miss\",\"itemlabel\":\"Miss\"},{\"itemid\":1604541426739645177,\"itemname\":\"Master\",\"itemlabel\":\"Master\"}]'.replace(/\:(\d+)([ ,}\]])/g, ':"$1"$2');
+			var statelistJSON = '[{\"itemid\":2451761426739645205,\"itemname\":\"ACT\",\"itemlabel\":\"ACT\"},{\"itemid\":7086511426739645203,\"itemname\":\"NSW\",\"itemlabel\":\"NSW\"},{\"itemid\":6812501426739645204,\"itemname\":\"NT\",\"itemlabel\":\"NT\"},{\"itemid\":6012701426739645203,\"itemname\":\"QLD\",\"itemlabel\":\"QLD\"},{\"itemid\":5122101426739645203,\"itemname\":\"SA\",\"itemlabel\":\"SA\"},{\"itemid\":2205431426739645203,\"itemname\":\"TAS\",\"itemlabel\":\"TAS\"},{\"itemid\":4357151426739645204,\"itemname\":\"VIC\",\"itemlabel\":\"VIC\"},{\"itemid\":7201701426739645204,\"itemname\":\"WA\",\"itemlabel\":\"WA\"}]'.replace(/\:(\d+)([ ,}\]])/g, ':"$1"$2');
+			var purchasertypelistJSON = '[]'.replace(/\:(\d+)([ ,}\]])/g, ':"$1"$2');
+			var depositfundtypelistJSON = '[]'.replace(/\:(\d+)([ ,}\]])/g, ':"$1"$2');
+			var balancefundtypeJSON = '[]'.replace(/\:(\d+)([ ,}\]])/g, ':"$1"$2');
+			var solicitorsummarylistJSON = '[{\"clientcontactid\":5236027360468648555,\"contactid\":2215330652211045435,\"title\":\"Mr\",\"firstname\":\"AustraSol\",\"lastname\":\"Solicitor\",\"position\":\"Law\",\"individual\":false,\"companyname\":\"Austra Solicitors Pty\",\"abnoracn\":\"56756734512\",\"currentstatusid\":5646421439024663771,\"statusname\":\"Active\",\"contacttypeid\":3453201426739645199,\"contacttypename\":\"Solicitor\",\"contactmobile\":\"09 6757 4663\",\"contactemail\":\"aussol@runway.com.au\",\"preferredcommtypeid\":8702101428465130107,\"street1\":\"56 Grey Street\",\"suburb\":\"East Melbourne\",\"state\":\"VIC\",\"postcode\":\"3002\",\"country\":\"Australia\",\"shortaddress\":\"East Melbourne VIC 3002 Australia\",\"longaddress\":\"56 Grey Street East Melbourne VIC 3002 Australia\",\"repuserid\":6418211408426741717,\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"},{\"clientcontactid\":6764133582364554870,\"contactid\":6736605513610778661,\"title\":\"Mr\",\"firstname\":\"Preston\",\"lastname\":\"Lawyer\",\"position\":\"Lawyer\",\"individual\":false,\"companyname\":\"New Land Solicitors Pty Ltd\",\"abnoracn\":\"67890121280\",\"currentstatusid\":5646421439024663771,\"statusname\":\"Active\",\"contacttypeid\":3453201426739645199,\"contacttypename\":\"Solicitor\",\"contactmobile\":\"0425253698\",\"contactemail\":\"info@test.com.au\",\"preferredcommtypeid\":8702101428465130107,\"street1\":\"78 Chapel Street\",\"suburb\":\"Windsor\",\"state\":\"VIC\",\"postcode\":\"3181\",\"country\":\"Australia\",\"shortaddress\":\"Windsor VIC 3181 Australia\",\"longaddress\":\"78 Chapel Street Windsor VIC 3181 Australia\",\"repuserid\":6418211408426741717,\"clientid\":\"331543700\",\"clientcompanyid\":\"636750636\"}]'.replace(/\:(\d+)([ ,}\]])/g, ':"$1"$2');
+
+			var listPartnerSet = JSON.parse(listPartnerSetJSON);
+			var listpartner = JSON.parse(listpartnerJSON);
+
+			var listhandoverpartner = JSON.parse(listhandoverpartnerJSON);
+			var titlelist = JSON.parse(titlelistJSON);
+			var statelist = JSON.parse(statelistJSON);
+			var purchasertypelist = JSON.parse(purchasertypelistJSON);
+			var depositfundtypelist = JSON.parse(depositfundtypelistJSON);
+			var balancefundtype = JSON.parse(balancefundtypeJSON);
+			var solicitorlist = JSON.parse(solicitorsummarylistJSON);
+
+			var landSummaryListTotal = 0;
+			var productTypeId = '7072281429502624629';
+			var companyname = 'Landy Developers Pty Ltd';
+			var landlistfilterJSON = null;
+            var publishCampaignUrl = '/runway/rep/landportalpublishcampaign';
+
+			var importActionId = '3753101433814327858';
+			var branchCCIdList = ['636750636','582741510','122688175','280408727'];
+
+           	var selectedLandId = [];
+
+           	var selectedIncludePartners = [];
+            var selectedExcludePartners = [];
+            var userFirstName = 'Marius';
+            var userLastName = 'Tobiassen';
+            var userName = 'Marius Tobiassen';
+            var userEmail = 'mariust@runway.com.au';
+            var reserveAllowed = true;
+            var showDripsPanel = true;
+
+			var alertLoad = null;
+        	var message = null;
+        	var isSuccess = null;
+
+            var errorMessage = null;
+        	var successMessage = null;
+        	var importWarningMessage = null;
+
+        	var importallowed = false;
+        	var importnotallowedmsg = 'Sorry, you are not authorised to perform this operation, contact Pipeline Support on 1800 779 964.';
+
+        	var landPartnerPublishHeader = 'Land list';
+        	var landPortalPublishHeader = 'Land Portal Publishing';
+        	var landCampaignPublishHeader = null;
+			/*]]>*/
+        </script>
+
+        <!-- SCRIPT FRAGMENT -->
+        
+	<script>
+		var urlPath = '/runway/';
+
+		var pipelineGlobalGetDetailUrl = '/runway/pipeline/global/get/detail';
+        var pipelineGlobalChangeDetailUrl = '/runway/pipeline/global/change/detail';
+        var pipelineGlobalChangeUserPasswordUrl = '/runway/pipeline/global/change/user/password';
+        var pipelineGlobalChangeUserPreferenceUrl = '/runway/pipeline/global/change/user/preference';
+        var pipelineGlobalDefaultLoginUrl = '/runway/login';
+        var pipelineGlobalGetUserPreferenceUrl = '/runway/pipeline/global/get/user/preference';
+		var pipelineGlobalSetUserHomePageUrl = '/runway/pipeline/global/user/homepagesetup';
+		var pipelineGlobalUserFiltersGetUrl = '/runway/pipeline/global/user/filters/get';
+		var pipelineGlobalUserFiltersSaveUrl = '/runway/pipeline/global/user/filters/save';
+        var pipelineGlobalUserFilterValuesSaveUrl = '/runway/pipeline/global/user/filtervalues/save';
+        var repLocationsListUrl = '/runway/rep/locations/list';
+        var repLandTitleDatesListUrl = '/runway/rep/pipelineland/titledate/list';
+        var repHandlAvailableDatesListUrl = '/runway/rep/pipelinehouseland/availabledate/list';
+
+		var sessionTimeoutCode = 999;
+
+		var contactFileUploadUrl = '/runway/contactfileupload';
+
+        var notificationCountUrl = '/runway/notification/get/notificationcount';
+
+		var isUserFilerValuesSaveEnabled = true;
+		var isFilterConfigurationAllowed  = true;
+
+		var dummyAutocompleteCalled = false;
+        function initDummyAutocomplete() {
+        	dummyAutocompleteCalled = true;
+        }
+
+		var isBuilder = false;
+		var isDeveloper = true;
+		var isHandLOthersProductsAllowed = true;
+		var salesRepFilterFlag = null;
+	</script>
+	<script src="./PIPELINE SALES REP_files/jquery-2.1.1.js"></script>
+	<script src="./PIPELINE SALES REP_files/jquery-ui.js"></script>
+	<script src="./PIPELINE SALES REP_files/bootstrap.min.js"></script>
+
+	<script src="./PIPELINE SALES REP_files/magicsuggest-min.js"></script>
+	<script src="./PIPELINE SALES REP_files/jquery.metisMenu.js"></script>
+	<script src="./PIPELINE SALES REP_files/jquery.slimscroll.min.js"></script>
+	<script src="./PIPELINE SALES REP_files/datatables.js"></script>
+	<script src="./PIPELINE SALES REP_files/dropzone.js"></script>
+	<script src="./PIPELINE SALES REP_files/sweetalert-dev.js"></script>
+	<script src="./PIPELINE SALES REP_files/jquery.validate.js"></script>
+	<script src="./PIPELINE SALES REP_files/bootstrap-datepicker.js"></script>
+	<script src="./PIPELINE SALES REP_files/bootstrap-clockpicker.js"></script>
+	<script src="./PIPELINE SALES REP_files/inspinia.js"></script>
+	<script src="./PIPELINE SALES REP_files/pace.min.js"></script>
+	<script src="./PIPELINE SALES REP_files/handlebars-v3.0.3.js"></script>
+	<script src="./PIPELINE SALES REP_files/templatingjs.js"></script>
+	<script src="./PIPELINE SALES REP_files/templatefn.js"></script>
+	<script src="./PIPELINE SALES REP_files/tablepropfn.js"></script>
+	<script src="./PIPELINE SALES REP_files/common_filter_list_values_const.js"></script>
+	<script src="./PIPELINE SALES REP_files/filterfn.js"></script>
+	<script src="./PIPELINE SALES REP_files/commonfn.js"></script>
+	<script src="./PIPELINE SALES REP_files/pipelineglobal.js"></script>
+
+	<script src="./PIPELINE SALES REP_files/dataTables.bootstrap.min.js"></script>
+	<script src="./PIPELINE SALES REP_files/dataTables.buttons.min.js"></script>
+	<script src="./PIPELINE SALES REP_files/buttons.colVis.min.js"></script>
+	<script src="./PIPELINE SALES REP_files/buttons.html5.min.js"></script>
+	<script src="./PIPELINE SALES REP_files/buttons.print.min.js"></script>
+	<script src="./PIPELINE SALES REP_files/buttons.bootstrap.min.js"></script>
+	<script src="./PIPELINE SALES REP_files/jszip.min.js"></script>
+	<script src="./PIPELINE SALES REP_files/pdfmake.min.js"></script>
+	<script src="./PIPELINE SALES REP_files/vfs_fonts.js"></script>
+
+	<script async="" defer="" src="./PIPELINE SALES REP_files/js"></script>
+
+        <script src="./PIPELINE SALES REP_files/js.cookie.js"></script>
+		<script src="./PIPELINE SALES REP_files/bootbox.js"></script>
+		<script src="./PIPELINE SALES REP_files/accounting.js"></script>
+		<script src="./PIPELINE SALES REP_files/moment.js"></script>
+
+		<script src="./PIPELINE SALES REP_files/land_list_common_const.js"></script>
+		<script src="./PIPELINE SALES REP_files/land_list_common.js"></script>
+		<script src="./PIPELINE SALES REP_files/ext_publish.js"></script>
+		<script src="./PIPELINE SALES REP_files/land_list_publisher.js"></script>
+		<script src="./PIPELINE SALES REP_files/stocklist_print.js"></script>
+
+		<script>
+			/*<![CDATA[*/
+
+            $(document).ready(function () {
+                COMMONJS.init();
+                EXTJS.init();
+                JS.init();
+            });
+
+			/*]]>*/
+		</script>
+    
+
+<div class="modal fade" id="land-publish-action" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog" style="width: 480px;">
+				<div class="c-modal-content modal-content">
+					<div class="c-modal-header modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+						<h1 class="c-modal-title modal-title">Publish property</h1>
+					</div>
+					<div class="c-modal-body modal-body">
+						<p class="c-font-16">
+							Publishing will allow the selected properties to be visible to the
+							companies that you choose to share them with
+						</p>
+						<p class="c-font-museosans-500 c-font-18 m-t-md">
+							Total properties to be published: <span class="count-selected">0</span>
+						</p>
+
+						<div class="c-modal-middle-div">
+							<select id="partnerset" name="partnerset" class="form-control">
+								<option value="" disabled="" selected="" style="display:none;">Select...</option>
+								
+							</select>
+							<label for="partnerset"><div class="m-r-sm cr-background-color-highlight cr-outline-color"></div>Partner Set</label>
+						</div>
+						<p class="m-t-sm m-l m-r">
+							This option will allow the properties you've selected to be automatically shared with partners in the selected Partner Set.
+						</p>
+					</div>
+					<div class="c-modal-footer modal-footer">
+						<button type="button" class="c-btn-modal btn btn-success">Publish</button>
+						<button type="button" class="c-btn-modal btn btn-default" data-dismiss="modal">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</div><div class="theme-config">
+    <div class="theme-config-box" style="">
+        <div class="spin-icon">
+            <i class="fa fa-chevron-left"></i>
+        </div>
+        <div class="skin-setttings">
+            <div class="title">Configuration</div>
+            <div class="setings-item">
+                    <span>
+                        Collapse menu
+                    </span>
+
+                <div class="switch">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="collapsemenu">
+                        <label class="onoffswitch-label" for="collapsemenu">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="setings-item">
+                    <span>
+                        Fixed sidebar
+                    </span>
+
+                <div class="switch">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="fixedsidebar" class="onoffswitch-checkbox" id="fixedsidebar">
+                        <label class="onoffswitch-label" for="fixedsidebar">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="setings-item">
+                    <span>
+                        Top navbar
+                    </span>
+
+                <div class="switch">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="fixednavbar" class="onoffswitch-checkbox" id="fixednavbar">
+                        <label class="onoffswitch-label" for="fixednavbar">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="setings-item">
+                    <span>
+                        Boxed layout
+                    </span>
+
+                <div class="switch">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="boxedlayout" class="onoffswitch-checkbox" id="boxedlayout">
+                        <label class="onoffswitch-label" for="boxedlayout">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="setings-item">
+                    <span>
+                        Fixed footer
+                    </span>
+
+                <div class="switch">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="fixedfooter" class="onoffswitch-checkbox" id="fixedfooter">
+                        <label class="onoffswitch-label" for="fixedfooter">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+			<div class="setings-item">
+                    <span>
+                        Hide breadcrumb
+                    </span>
+
+                <div class="switch">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="hidebreadcrumb" class="onoffswitch-checkbox" id="hidebreadcrumb">
+                        <label class="onoffswitch-label" for="hidebreadcrumb">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="title">Skins</div>
+            <div class="setings-item default-skin">
+                    <span class="skin-name ">
+                         <a href="#" class="s-skin-0">
+                             Default
+                         </a>
+                    </span>
+            </div>
+            <div class="setings-item blue-skin">
+                    <span class="skin-name ">
+                        <a href="#" class="s-skin-1">
+                            Blue light
+                        </a>
+                    </span>
+            </div>
+            <div class="setings-item yellow-skin">
+                    <span class="skin-name ">
+                        <a href="#" class="s-skin-3">
+                            Yellow/Purple
+                        </a>
+                    </span>
+            </div> -->
+        </div>
+    </div>
+</div>
+<script>
+    // Config box
+
+    // Enable/disable fixed top navbar
+    $('#fixednavbar').click(function () {
+        if ($('#fixednavbar').is(':checked')) {
+            $(".navbar-static-top").removeClass('navbar-static-top').addClass('navbar-fixed-top');
+            $("body").removeClass('boxed-layout');
+            $("body").addClass('fixed-nav');
+            $('#boxedlayout').prop('checked', false);
+        } else {
+            $(".navbar-fixed-top").removeClass('navbar-fixed-top').addClass('navbar-static-top');
+            $("body").removeClass('fixed-nav');
+        }
+    });
+
+    // Enable/disable fixed sidebar
+    $('#fixedsidebar').click(function () {
+        if ($('#fixedsidebar').is(':checked')) {
+            $("body").addClass('fixed-sidebar');
+            $('.sidebar-collapse').slimScroll({
+                height: '100%',
+                railOpacity: 0.9,
+            });
+        } else {
+            $('.sidebar-collapse').slimscroll({destroy: true});
+            $('.sidebar-collapse').attr('style', '');
+            $("body").removeClass('fixed-sidebar');
+        }
+    });
+
+    // Enable/disable collapse menu
+    $('#collapsemenu').click(function () {
+        if ($('#collapsemenu').is(':checked')) {
+            $("body").addClass('mini-navbar');
+            SmoothlyMenu();
+        } else {
+            $("body").removeClass('mini-navbar');
+            SmoothlyMenu();
+        }
+    });
+
+    // Enable/disable boxed layout
+    $('#boxedlayout').click(function () {
+        if ($('#boxedlayout').is(':checked')) {
+            $("body").addClass('boxed-layout');
+            $('#fixednavbar').prop('checked', false);
+            $(".navbar-fixed-top").removeClass('navbar-fixed-top').addClass('navbar-static-top');
+            $("body").removeClass('fixed-nav');
+            $(".footer").removeClass('fixed');
+            $('#fixedfooter').prop('checked', false);
+        } else {
+            $("body").removeClass('boxed-layout');
+        }
+    });
+
+    // Enable/disable fixed footer
+    $('#fixedfooter').click(function () {
+        if ($('#fixedfooter').is(':checked')) {
+            $('#boxedlayout').prop('checked', false);
+            $("body").removeClass('boxed-layout');
+            $(".footer").addClass('fixed');
+        } else {
+            $(".footer").removeClass('fixed');
+        }
+    });
+	
+	// Enable/disable hide breadcrumb
+    $('#hidebreadcrumb').click(function () {
+        if ($('#hidebreadcrumb').is(':checked')) {                        
+            $("#header-breadcrumb").addClass('c-display-none');
+        } else {
+            $("#header-breadcrumb").removeClass('c-display-none');
+        }
+    });
+
+    // SKIN Select
+    $('.spin-icon').click(function () {
+        $(".theme-config-box").toggleClass("show");
+    });
+
+    // Default skin
+    $('.s-skin-0').click(function () {
+        $("body").removeClass("skin-1");
+        $("body").removeClass("skin-2");
+        $("body").removeClass("skin-3");
+    });
+
+    // Blue skin
+    $('.s-skin-1').click(function () {
+        $("body").removeClass("skin-2");
+        $("body").removeClass("skin-3");
+        $("body").addClass("skin-1");
+    });
+
+    // Inspinia ultra skin
+    $('.s-skin-2').click(function () {
+        $("body").removeClass("skin-1");
+        $("body").removeClass("skin-3");
+        $("body").addClass("skin-2");
+    });
+
+    // Yellow skin
+    $('.s-skin-3').click(function () {
+        $("body").removeClass("skin-1");
+        $("body").removeClass("skin-2");
+        $("body").addClass("skin-3");
+    });
+
+</script></body></html>
